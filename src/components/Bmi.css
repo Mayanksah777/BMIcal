@@ -1,0 +1,87 @@
+.bmi-app {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.bmi-container {
+  width: 100%;
+  max-width: 420px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.16);
+}
+
+.bmi-container h2 {
+  text-align: center;
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+.bmi-fields label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #334155;
+}
+
+.bmi-fields input {
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin-bottom: 14px;
+}
+
+.bmi-fields input:focus {
+  border-color: #0284c7;
+  outline: 2px solid rgba(2, 132, 199, 0.18);
+}
+
+.bmi-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.bmi-btn {
+  flex: 1;
+  border: none;
+  border-radius: 8px;
+  padding: 11px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #ffffff;
+  background: #0f766e;
+}
+
+.bmi-btn:hover {
+  background: #0d5f59;
+}
+
+.bmi-btn-reset {
+  background: #dc2626;
+}
+
+.bmi-btn-reset:hover {
+  background: #b91c1c;
+}
+
+.bmi-result {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.bmi-result h1 {
+  color: #0f172a;
+  font-size: 1.4rem;
+}
+
+.bmi-result p {
+  color: #1d4ed8;
+  font-weight: 600;
+  margin-top: 8px;
+}

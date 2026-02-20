@@ -1,0 +1,82 @@
+.Add {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.Add form {
+  width: 100%;
+  max-width: 420px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 28px;
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.16);
+}
+
+.Add .header h1 {
+  text-align: center;
+  color: #1f2937;
+  font-size: 1.5rem;
+  margin-bottom: 18px;
+}
+
+.Add .cal label {
+  display: block;
+  margin-bottom: 6px;
+  color: #334155;
+  font-weight: 600;
+}
+
+.Add .cal input {
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+}
+
+.Add .cal input:focus {
+  border-color: #0284c7;
+  outline: 2px solid rgba(2, 132, 199, 0.18);
+}
+
+.Add .btn button,
+.Add .btn-1 button {
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  padding: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.Add .btn button {
+  background: #0f766e;
+}
+
+.Add .btn button:hover {
+  background: #0d5f59;
+}
+
+.Add .btn-1 {
+  margin-top: 10px;
+}
+
+.Add .btn-1 button {
+  background: #dc2626;
+}
+
+.Add .btn-1 button:hover {
+  background: #b91c1c;
+}
+
+.Add .res {
+  margin-top: 16px;
+  text-align: center;
+  color: #0f172a;
+  font-weight: 600;
+}
